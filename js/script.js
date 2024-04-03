@@ -107,12 +107,11 @@ var nomeUsuario = prompt('Digite seu nome:')
 			alert('Você transferiu ' + transferencia + 'R$ Para a conta ' + conta)
 		}
 		
-		
-		
 		function sair() {
 			var confirma = confirm('Você deseja sair?');
 			if (confirma) {
-				window.close();
+				alert(nomeUsuario + ', foi um prazer ter você por aqui')
+                window.close();
 			} else {
 				inicio();
 			}
